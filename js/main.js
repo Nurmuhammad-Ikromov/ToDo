@@ -71,9 +71,9 @@ const createItem = (array, list) => {
 			NewCheck.checked = true;
 			count++;
 		}
-
-		elBtn1.textContent = array.length;
-		elBtn2.textContent = count;
-		elBtn3.textContent = array.length - count;
 	});
+
+	elBtn1.textContent = array.length;
+	elBtn2.textContent = count;
+	elBtn3.textContent = array.length - count;
 };
