@@ -1,0 +1,53 @@
+body{
+    font-family: 'Arial', sans-serif;
+}
+
+.container{
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.js-form{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.js-input{
+    margin-right: 20px;
+    flex-grow: 1;
+}
+
+.js-list{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.js-item{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    margin: 0;
+}
+
+.js-btn{
+    margin-left: auto;
+}
+
+.js-text{
+    margin-left: 10px;
+}
+
+.button-box{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    width: 100%;
+}
