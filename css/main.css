@@ -3,9 +3,33 @@ body{
 }
 
 .container{
-    width: 350px;
+    width: 700px;
     margin: 0 auto;
     text-align: center;
+}
+
+.inner{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.main-box{
+    width: 350px;
+}
+
+.mark-box{
+    width: 250px;
+}
+
+.mark-box-title{
+    /* display: none; */
+}
+
+.js-mark-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .js-form{
@@ -27,18 +51,20 @@ body{
     margin: 0 auto;
     padding: 0;
     list-style-type: none;
+    padding-left: 40px; 
 
 }
 
 .js-item{
     display: flex;
     align-items: center;
-    width: 200px;
+    width: 100%;
     margin: 0;
 }
 
 .js-btn{
     margin-left: auto;
+    margin-right: 20px;
 }
 
 .js-text{
@@ -47,7 +73,10 @@ body{
 
 .button-box{
     display: flex;
-    margin-top: 100px;
     justify-content: space-evenly;
     width: 100%;
+}
+
+.js-mode{
+    background-color: blue;
 }

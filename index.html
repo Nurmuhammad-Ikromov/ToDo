@@ -9,23 +9,39 @@
 	</head>
 	<body>
 		<div class="container">
-            <div class="button-box">
-				<button>All <strong class="btn-all">0</strong></button>
-				<button>Completed <strong class="btn-comp">0</strong></button>
-				<button>
-					Uncompleted <strong class="btn-uncomp">0</strong>
-				</button>
+			<div class="inner">
+				<div class="main-box">
+					<div class="button-box">
+						<button class="all">All <strong class="btn-all">0</strong></button>
+						<button class="complated">Completed <strong class="btn-comp">0</strong></button>
+						<button class="uncomplated">
+							Uncompleted <strong class="btn-uncomp">0</strong>
+						</button>
+					</div>
+		
+					<form class="js-form">
+						<input type="text" class="js-input" placeholder="Type here..."/>
+		
+						<button  type="submit">Add</button>
+		
+					</form>
+		
+					<ul class="js-list"></ul>
+		
+					<button class="mode">
+						Mode
+					</button>
+				</div>
+	
+				<div class="mark-box">
+					<h2 class="mark-box-title">
+						BOOKMARK
+					</h2>
+					<ul class="js-mark-list">
+						
+					</ul>
+				</div>
 			</div>
-
-			<form class="js-form">
-				<input type="text" class="js-input" placeholder="Type here..."/>
-
-				<button type="submit">Add</button>
-			</form>
-
-			<ul class="js-list"></ul>
-
-			
 		</div>
 
 		<script src="./js/main.js"></script>
