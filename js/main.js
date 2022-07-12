@@ -120,33 +120,3 @@ elAllBtn.addEventListener('click', function (evt) {
 	evt.preventDefault();
 	createItem(localList, elList);
 });
-
-// const elMode = document.querySelector('.mode');
-// const elBody = document.querySelector('body');
-
-// elMode.addEventListener('click', function (evt) {
-// 	evt.preventDefault();
-// 	elBody.classList.toggle('js-mode');
-
-// 	if (elBody.classList.length == 0) {
-// 		func('mode', 'light');
-// 	}
-
-// 	if (elBody.classList.length == 1) {
-// 		func('mode', 'dark');
-// 	}
-// });
-
-// window.localStorage.setItem('mode', window.localStorage.getItem('mode'));
-// function func(key, value) {
-// 	window.localStorage.setItem(key, value);
-// }
-
-// CLASSLIST, SETATRIBUTE, ADD,REMOVE,CLASS, DOM BO'YICHA
-
-// const createMark = (item, list) =>{
-// 	let NewMarkItem = document.createElement("li")
-// 	NewMarkItem.setAttribute("class", "js-mark-item");
-// 	NewMarkItem.textContent =
-// 	list.appendChild(item)
-// }
